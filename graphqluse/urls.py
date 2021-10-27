@@ -7,5 +7,5 @@ from products.schema import schema
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("reviews.urls", namespace="reviews")),
-    path("graphql", GraphQLViiew.as_view(graphiql=True, schema=schema)),
+    path("graphql", GraphQLView.as_view(graphiql=True, schema=schema)),
 ]
