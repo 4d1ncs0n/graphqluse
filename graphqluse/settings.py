@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'reviews',
-    'ecommerce',
+    'products',
     'django_graphiql', # -> For GUI interface
     'graphene_django', # -> For graphql api
 ]
